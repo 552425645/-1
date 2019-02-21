@@ -1,0 +1,530 @@
+
+.swiperBanner{
+	width: 6.99rem;
+	height: 2.25rem;
+	padding-left: 0.255rem;
+	padding-right: 0.255rem;
+	
+}
+.seiperB{
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+.seiperB .swiper-slide{
+	text-align: center;
+	border: 0px !important;
+}
+.seiperB .swiper-slide a{
+	display: inline-block;
+	width: 6.75rem;
+	height: 100%;
+	border-radius: 0.1rem;
+	overflow: hidden;
+}
+.swiper-wrapper{
+	border: 0px !important;
+}
+
+
+
+/**/
+.titleShizhan{
+	height: 1.07rem;
+	padding-left: 0.375rem;
+	padding-right: 0.375rem;
+	padding-top: 0.2rem;
+	font-size: 0px;
+}
+
+.icon-title{
+	vertical-align: top;
+	width: 0.38rem;
+	height: 0.38rem;
+	background: url(../img/index_icon.png) no-repeat;
+	background-position: 2px -33px;
+	margin-right: 0rem;
+	margin-top: 0.3rem;
+	margin-right: 0.1rem;
+	
+}
+.icon-text{
+	width: inherit;
+	vertical-align: top;
+	margin-top: 0.3rem;
+	font-size: 0.28rem;
+	color: #333;
+}
+.icon-more{
+	width: inherit;
+	vertical-align: top;
+	margin-top: 0.4rem;
+	font-size: 0.24rem;
+	color: #71777D;
+	float: right;
+}
+
+/*实战*/
+.shizhan-content{
+	padding-left: 0.375rem;
+	padding-top: 0.2rem;
+	font-size: 0px;
+}
+.shizhan-content li{
+	width: 3.2rem;
+	height: 2.16rem;
+	box-shadow: 0 4px 16px 0 #1679d3;
+	background: #1679d3 url(../img/5b174aae00016dda02400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+	float: left;
+	margin-right: 0.3rem;
+	border-radius: 0.1rem;
+	margin-bottom: 0.3rem;
+	
+}
+.shizhan-content .snake{
+	background: #1679d3 url(../img/5b1746ed0001976102400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+.shizhan-content li a{
+	display: block;
+	width: 2.64rem;
+	height: 1.56rem;
+	/*background: yellow;*/
+	margin-top: 0.25rem;
+	margin-left: 0.3rem;
+	color: white;
+	font-size: 0.25rem;
+	
+}
+.shizhan-content li a h2{
+	font-size: 0.3rem;
+	
+}
+.shizhan-content li a p{
+	font-size: 0.22rem;
+	height: 0.58rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.shizhan-content li a h4{
+	font-weight: normal;
+	font-size: 0.22rem;
+	margin-top: 0.2rem;
+}
+.icon-person{
+	width: 0.32rem;
+	height: 0.32rem;
+	vertical-align: middle;
+	margin-right: 0.1rem;
+}
+.shizhan-content li a h4 font{
+	margin-left: 0.3rem;
+}
+
+/*Boot技术*/
+
+.ul-Boot{
+	padding-left: 0.375rem;
+	padding-top: 0.3rem;
+	padding-right: 0.375rem;
+}
+.ul-Boot li{
+	width: 6.725rem;
+	height: 1.68rem;
+	margin-bottom: 0.6rem;
+	
+}
+.ul-Boot li figure{
+	width: 2.16rem;
+	height: 1.44rem;
+	float: left;
+}
+.ul-Boot li figcaption{
+	float: left;
+	width: 3.9rem;
+	height: 100%;
+	margin-left: 0.32rem;
+	color: #333333;
+}
+.ul-Boot li figcaption h2{
+	font-weight: normal;
+	font-size: 0.3rem;
+	
+}
+.ul-Boot li figcaption p{
+	font-size: 0.24rem;
+	color: #71777D;
+	margin-top: 0.1rem;
+}
+.ul-Boot li figcaption .money{
+	font-size: 0.24rem;
+	color: #F01414;
+	margin-top: 0.1rem;
+}
+
+
+
+
+.whiteContent .java{
+	background: #ff4545 url(../img/5b1746ca000157da02400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+.whiteContent .anground{
+	background: #00b85a url(../img/5b1747e50001d45c02400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+.bootWhite{
+	padding: 0;
+}
+.swiper-xuanxiang{
+	padding-left: 0.375rem;
+	padding-top: 0.3rem;
+	width: 6.75rem;
+	height: 6.24rem;
+	padding-bottom: 1rem;
+}
+.swiperBig{
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+.swiperBig .swiper-pagination{
+	bottom: -0.92rem;
+}
+.swiperBig .swiper-pagination .swiper-pagination-bullet{
+	background: #D9DDE1;
+    width: .21333333rem;
+    height: .21333333rem;
+    border-radius: .10666667rem;
+    transition: all .3s;
+    opacity: 1;
+}
+.swiperBig .swiper-pagination .swiper-pagination-bullet-active{
+	width: .5333333rem;
+    background: #B7BBBF;
+}
+
+/*新手入门*/
+.gray{
+	background: #F3F5F7;
+}
+.white{
+	background: #FFFFFF;
+}
+.whiteContent .qianduan{
+	background: #FFFFFF url(../img/web.png) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+.whiteContent .javakaifa{
+	background: #FFFFFF url(../img/java.png) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+.whiteContent .angroundkaifa{
+	background: #FFFFFF url(../img/android.png) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+.whiteContent .php{
+	background: #5280f1 url(../img/php.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+	
+}
+.whiteContent .php a{
+	color: white;
+}
+.whiteContent li a{
+	color: #2b333b;
+}
+.whiteContent .weifuwu{
+	background: #00c7c7 url(../img/5b174ac00001bbf102400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+.whiteContent .weifuwu a{
+	color: white;
+}
+.whiteContent .iOS{
+	background: #3093ff url(../img/5b1747f90001deea02400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+.whiteContent .iOS a{
+	color: white;
+}
+.whiteContent .java a{
+	color: white;
+}
+.whiteContent .vue{
+	background: #41b883 url(../img/5b1746400001ab5a02400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+.whiteContent .vue a{
+	color: white;
+}
+.whiteContent .qukuailian{
+	background: #4693DF url(../img/5b29f59c00015c1702400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+.whiteContent .yunjisuan{
+	background: #42a4f0 url(../img/5b174ac00001bbf102400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+.whiteContent .shendu{
+	background: #00b85a url(../img/5b174a9c00019d3102400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+}
+
+
+/**/
+.hottopicBottom{
+	width: 6.58rem;
+	margin: 0 auto;
+	border-bottom: 2px dashed #D9DDE1;
+	padding-bottom: 0.2rem;
+}
+.hottopicBottomLeft{
+	width: 4.94rem;
+	height: 1.28rem;
+	float: left;
+}
+.hottopicBottomLeft p{
+	color: #20CC85;
+	font-size: 0.28rem;
+}
+.hottopicBottomLeft span{
+	display: block;
+	font-size: 0.20rem;
+	color: #B7BBBF;
+	margin-top: 0.2rem;
+}
+.hottopicBottomRight{
+	float: right;
+	width: 1.28rem;
+	height: 1.28rem;
+	border-radius: 0.1rem;
+	overflow: hidden;
+}
+
+.titleShizhanLeft{
+	width: 3.4rem;
+	height: 2.71rem;
+	border-right: 5px solid #D9DDE1;
+	float: left;
+}
+.titleShizhanLeft h2{
+	font-size: 0.28rem;
+	color: #2B333B;
+}
+.titleShizhanLeft p{
+	font-size: 0.22rem;
+	color: #B7BBBF;
+}
+.titleShizhanLeft figure{
+	width: 1.28rem;
+	height: 1.28rem;
+	margin-top: 0.5rem;
+	overflow: hidden;
+	border-radius: 0.1rem;
+}
+.titleShizhanRight{
+	width: 2.8rem;
+	height: 1.12rem;
+	float: left;
+	padding-left: 0.2rem;
+}
+.titleShizhanRight p{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: 0.28rem;
+}
+.titleShizhanRight font{
+	font-size: 0.22rem;
+	color: #B7BBBF;
+	display: block;
+	margin-top: 0.1rem;
+}
+.titletop{
+	padding-bottom: 0.2rem;
+	border-bottom: 2px solid  #D9DDE1;
+}
+.titletop:nth-child(2){
+	border-bottom: 0;
+}
+
+.yuanwen{
+	margin-top: 0.2rem;
+	padding: 0 0.375rem;
+	
+}
+.yuanwen li{
+	margin-top: 0.2rem;
+	
+}
+.yuanwen li a{
+	display: block;
+	font-size: 0.28rem;
+	color: #333333;
+}
+.yuanwen li p{
+	font-size: 0.22rem;
+	color: #B7BBBF;
+	margin-top: 0.1rem;
+}
+
+/*猜你喜欢*/
+
+
+.Love{
+	padding:  0 0.375rem;
+	background: white;
+}
+.titleLove{
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 100%;
+}
+.icon-love{
+	background: url(../img/index_icon.png) no-repeat;
+	background-position: center -285px;
+}
+.newList{
+	padding: 0;
+	margin-top: 0.3rem;
+}
+.newList li:nth-child(2n){
+	margin-right: 0;
+}
+.more{
+	width: 3.62rem;
+	height: 0.74rem;
+	font-size: 0.24rem;
+	color: #71777D;
+	text-align: center;
+	line-height: 0.74rem;
+	margin: 0.3rem auto 0.4rem;
+	border: 1px solid #71777D;
+	border-radius: 0.37rem;
+}
+
+
+
+
+/*猜你喜欢写额专用样式*/
+
+.ul-Boot li:nth-child(6n){
+	width: 3.2rem;
+	height: 2.16rem;
+	box-shadow: 0 4px 16px 0 #1679d3;
+	background: #1679d3 url(../img/5b174aae00016dda02400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+	display: inline-block;
+	border-radius: 0.1rem;
+	margin-bottom: 0.3rem;
+}
+.ul-Boot li:nth-child(6n-1){
+	width: 3.2rem;
+	height: 2.16rem;
+	box-shadow: 0 4px 16px 0 #1679d3;
+	background: #1679d3 url(../img/5b174aae00016dda02400240.jpg) no-repeat right;
+	background-size: 190px;
+	background-position: 162px 95px;
+	display: inline-block;
+	border-radius: 0.1rem;
+	margin-bottom: 0.3rem;
+}
+
+.ul-Boot li:nth-child(6n-1) figure{
+	display: none;
+}
+.ul-Boot li:nth-child(6n) figure{
+	display: none;
+}
+.ul-Boot li:nth-child(6n) figcaption{
+	width: 2.64rem;
+	height: 1.56rem;
+	margin-top: 0.25rem;
+	margin-left: 0.3rem;
+	color: white;
+	font-size: 0.25rem;
+}
+.ul-Boot li:nth-child(6n-1) figcaption{
+	width: 2.64rem;
+	height: 1.56rem;
+	margin-top: 0.25rem;
+	margin-left: 0.3rem;
+	color: white;
+	font-size: 0.25rem;
+}
+.ul-Boot li:nth-child(6n) h2{
+	font-size: 0.3rem;
+	
+}
+.ul-Boot li:nth-child(6n-1) h2{
+	font-size: 0.3rem;
+	
+}
+.ul-Boot li:nth-child(6n) p{
+	font-size: 0.22rem;
+	height: 0.58rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: white;
+}
+.ul-Boot li:nth-child(6n-1) p{
+	font-size: 0.22rem;
+	height: 0.58rem;
+	overflow: hidden;
+	color: white;
+	
+	text-overflow: ellipsis;
+}
+.ul-Boot li:nth-child(6n) .money{
+	font-weight: normal;
+	font-size: 0.22rem;
+	margin-top: 0.2rem;
+	color: white;
+}
+.ul-Boot li:nth-child(6n-1) .money{
+	font-weight: normal;
+	font-size: 0.22rem;
+	margin-top: 0.2rem;
+	color: white;
+}
+.money font{
+	margin-left: 0.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+.Listjust{
+	padding: 0.3rem 0.3rem 0.4rem 0.3rem;
+	background: black;
+}
+.Listjust li{
+	display: block;
+	padding:0.2rem 0.36rem;
+	border-radius: 0.5rem;
+	font-size: 0.24rem;
+	border: 1px solid white;
+	float: left;
+	margin-bottom: 0.2rem;
+	margin-right: 0.1rem;
+	
+	
+}
+.Listjust .active{
+	background: #fc3154;
+	border: 1px solid #fc3154;
+}
+.Listjust li a{
+	color: white;
+}
+
+.contentList{
+	padding:0 0.3rem;
+}
+.contentList li{
+	padding:0.3rem 0 ;
+}
+.contentList li a{
+	display: block;
+	height: 100%;
+}
+.coverImg{
+	width: 1.8rem;
+	height: 1.8rem;
+	float: left;
+	background: black;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.coverRight{
+	width: 4.72rem;
+	float: right;
+}
+.coverRight .coverTitle{
+	font-size: 0.28rem;
+	color: #333333;
+	margin-bottom: 0.13rem;
+}
+.coverRight .coverContent{
+	font-size: 0.24rem;
+	color: #71777d;
+	margin-bottom: 0.13rem;
+}
+.coverRight .renshu{
+	font-size: 0.2rem;
+	color: #5e5e5e;
+	margin-bottom: 0.2rem;
+}
+.piceBox{
+	font-size: 0.2rem;
+}
+.piceBox span:nth-child(1){
+	color: #FF2D50;
+	margin-right: 0.3rem;
+	
+}
+.piceBox span:nth-child(3){
+	color: #FF2D50;
+
+}
+.piceBox span:nth-child(2){
+	color:#B7BBBF;
+	text-decoration: line-through;
+	margin-right: 0.3rem;
+	
+}

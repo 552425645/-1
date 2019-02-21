@@ -1,0 +1,131 @@
+
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.kecgengXia{
+	background: #F3F5F7;
+	height: 11.27rem;
+	width: 100%;
+}
+.asideLeft{
+	width: 1.56rem;
+	height: 100%;
+	overflow-y: scroll;
+	float: left;
+}
+.asideLeft li{
+	width: 100%;
+	height: 1.2rem;
+	background: white;
+	color: #2B333B;
+	font-size: 0.28rem;
+	border-bottom: 1px solid #D9DDE1;
+	text-align: center;
+	line-height: 1.2rem;
+}
+.asideLeft li a{
+	line-height: 0.35rem;
+	display: inline-block;
+	color: #2B333B;
+	
+}
+.acc{
+	margin-top: 0.23rem;
+}
+.rightContent{
+	float: right;
+	width: 5.9rem;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.div1{
+	padding-left: 0.1rem;
+	font-size: 0.24rem;
+	color: #2B333B;
+	padding-top: 0.5rem;
+	padding-right: 0.2rem;
+	
+}
+.wbbClass{
+	background: white;
+}
+.wbbClass li{
+	width: 33.33%;
+	float: left;
+	margin-bottom: 0.2rem;
+	background: white;
+	height: 1.32rem;
+}
+.wbbClass li figure{
+	width: 0.72rem;
+	height: 0.72rem;
+	border-radius: 0.1rem;
+	margin: 0.1rem auto 0.1rem;
+	background: black;
+	overflow: hidden;
+}
+.wbbClass li figcaption{
+	font-size: 0.24rem;
+	text-align: center;
+}
+.title1{
+	margin-top: 0.5rem;
+}
+
+/*底下的列表*/
+
+.dixiacontent{
+	margin-top: 0.4rem;
+}
+.dixiacontent li{
+	margin-bottom: 0.3rem;
+}
+.ContenLEf{
+	width: 1.8rem;
+	height: 1.2rem;
+	float: left;
+	
+}
+.ContenR{
+	width: 3.54rem;
+	height: 1.2rem;
+	float: right;
+}
+.ContenR .tit{
+	font-size: 0.28rem;
+	line-height:0.35rem;
+    color: #2B333B;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    word-wrap: break-word;
+    margin-bottom: 0.1rem;
+}
+.ContenR p{
+	font-size: 0.2rem;
+	color: #71777D;
+}
+.ContenR p span:nth-child(1){
+	margin-right: 0.3rem;
+}
+
+/*点击加载更多*/
+.more{
+	width: 3.62rem;
+	height: 0.74rem;
+	border: 1px solid #B7BBBF;
+	color: #333333;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.74rem;
+	border-radius: 0.37rem;
+	margin: 0.15rem auto;
+}
+

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/ggHeaerFooter.css" />
+		<link rel="stylesheet" type="text/css" href="css/实战.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ggJS.js" type="text/javascript" charset="utf-8"></script>
+		<title>实战</title>
+	</head>
+
+	<body>
+		<header class="IndexHeader">
+
+			<!--logo-->
+			<a href="javascript:;" class="logoHeaderIndex"></a>
+
+			<!--sousuo-->
+			<div class="globalClass ">
+				<input type="text" name="" id="" value="" placeholder="请输入搜索关键词" style="display: none;" />
+				<i class="icon fa fa-search HeaderSousuo "></i>
+
+			</div>
+			<!--头像-->
+			<i class="icon fa fa-user-circle HeaderPersonal"></i>
+			<!--xiazai-->
+			<span class="icon HeaderDowlood">下载客户端</span>
+			<!--取消-->
+			<span class="quxiaoHeader" style="display: none;">取消</span>
+		</header>
+		<div class="Index-content">
+			<div class="content1">
+				<ul class="ulList clearfix">
+					<li>
+						<a href="index.html">首页</a>
+						<div class="underLine" style="display: none;"></div>
+					</li>
+					<li>
+						<a href="课程.html?articleId=1" target="_self">课程</a>
+						<div class="underLine" style="display: none;"></div>
+					</li>
+					<li>
+						<a href="就业班.html">就业班</a>
+						<div class="underLine" style="display: none;"></div>
+					</li>
+					<li>
+						<a href="实战.html">实战</a>
+						<div class="underLine" style="display: block;"></div>
+					</li>
+					<li>
+						<a href="手记.html">手记</a>
+						<div class="underLine" style="display: none;"></div>
+					</li>
+					<li>
+						<a href="猿问.html">猿问</a>
+						<div class="underLine" style="display: none;"></div>
+					</li>
+				</ul>
+				<!--里面的内容-->
+				<div class="containerSmall">
+					<ul class="clearfix Listjust">
+						<li class="active" artile="all">
+							<a href="javascript:;">全部</a>
+						</li>
+						<li class="" artile="1">
+							<a href="javascript:;">前沿技术</a>
+						</li>
+						<li class="" artile="2">
+							<a href="javascript:;">前端开发</a>
+						</li>
+						<li class="" artile="3">
+							<a href="javascript:;">后端开发</a>
+						</li>
+						<li class="" artile="4">
+							<a href="javascript:;">移动开发</a>
+						</li>
+						<li class="" artile="5">
+							<a href="javascript:;">算法&数学</a>
+						</li>
+						<li class="" artile="6">
+							<a href="javascript:;">云计算&大数据</a>
+						</li>
+						<li class="" artile="7">
+							<a href="javascript:;">运维&测试</a>
+						</li>
+						<li class="" artile="8">
+							<a href="javascript:;">数据库</a>
+						</li>
+						<li class="" artile="9">
+							<a href="javascript:;">UI设计&多媒体</a>
+						</li>
+					</ul>
+					<!--内容-->
+					<ul class="contentList">
+
+					</ul>
+					<!--模板 -->
+					<div class="articleId" style="display: none;">
+						<li articleAll="$articleAll$" articleFF="$articleF1$" articleFFF="$articleF2$">
+							<a href="javascript:;" class="clearfix" article="$sysid$">
+								<div class="coverImg" style="background: url(image/01.jpg) center;">
+								</div>
+								<div class="coverRight">
+									<p class="coverTitle">$title$</p>
+									<p class="coverContent">$describe$</p>
+									<p class="renshu"><span>$study$</span>
+										<!--<i class="pt">.</i><span>8人学习</span>--></p>
+									<p class="piceBox"><span>$price$</span><span>$origin$</span><span>$time$</span></p>
+								</div>
+							</a>
+						</li>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="content2">
+<h2>热门搜索</h2>
+				<ul class="clearfix">
+					<li>Java</li>
+					<li>python</li>
+					<li>vue</li>
+					<li>spring</li>
+					<li>小程序</li>
+					<li>linux</li>
+					<li>react</li>
+					<li>mysql</li>
+					<li>微信小程序</li>
+				</ul>
+				<div class="morem">
+					查看课程分类
+				</div>
+			</div>
+		</div>
+		<script src="js/shizhanList.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var result = listData.data.list
+			for(var i = 0; i < result.length; i++) {
+				var htmlModel = $(".articleId").html()
+				htmlModel = htmlModel.replace("$articleAll$", result[i].articleQb);
+				htmlModel = htmlModel.replace("$articleF1$", result[i].articleFl);
+				htmlModel = htmlModel.replace("$articleF2$", result[i].articleF2);
+				htmlModel = htmlModel.replace("image/01.jpg", result[i].coverImg);
+				htmlModel = htmlModel.replace("$title$", result[i].title);
+				htmlModel = htmlModel.replace("$describe$", result[i].describe);
+				htmlModel = htmlModel.replace("$study$", result[i].study);
+				htmlModel = htmlModel.replace("$price$", result[i].price);
+				htmlModel = htmlModel.replace("$origin$", result[i].origin);
+				htmlModel = htmlModel.replace("$time$", result[i].time);
+				$(".contentList").append(htmlModel)
+			}
+			//点击选择筛选出想要的东西
+			
+			
+			$(".Listjust li").click(function() {
+				$(this).addClass("active").siblings().removeClass("active")
+				//全部
+				var val=$(this).attr("artile")
+				console.log(val)
+				$(".contentList li").hide()
+				if($(this).index()==0){
+					$(".contentList li").filter("[articleAll="+val+"]").show()
+					
+				}else if($(this).index()>0&&$(this).index()<=4){
+					$(".contentList li").filter("[articleFF="+val+"]").show()
+				}else{
+					$(".contentList li").filter("[articleFFF="+val+"]").show()
+					
+				}
+
+
+				
+				
+				
+			})
+		</script>
+	</body>
+
+</html>

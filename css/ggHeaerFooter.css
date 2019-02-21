@@ -1,0 +1,179 @@
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.IndexHeader{
+	padding-left: 0.42rem;
+	padding-right: 0.42rem;
+	padding-top: 0.26rem;
+	height: 0.77rem;
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow: 0 0 10px 1px rgba(7,17,27,.1);
+	z-index: 1000;
+}
+
+.logoHeaderIndex{
+	display: inline-block;
+	width:1.64rem;
+	height: 0.48rem;
+	background: url(../img/logo.png) no-repeat;
+	vertical-align: top;
+	
+}
+.activeX{
+	color: #71777D;
+	float: right;
+	margin-right: 0.2rem;
+	margin-top: 0.02rem;
+}
+.globalClass{
+	display: inline-block;
+	vertical-align: top;
+	width: 2.25rem;
+	height: 0.48rem;
+	font-size: 0.26rem;
+}
+.HeaderSousuo{
+	float: right;
+	font-size:0.4rem !important;
+	
+}
+.globalBorder{
+	width: 6rem;
+	border: 1px solid #71777D;
+	border-radius: 0.09rem;
+	background: white;
+	height: 0.5rem;
+	margin-right: 0.12rem;
+}
+.globalClass input{
+	vertical-align: middle;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	text-indent: 1em;
+	border: 0;
+}
+.icon{
+	display: inline-block;
+	vertical-align: middle;
+	width: 0.44rem;
+	height: 0.44rem;
+	font-size: 0.4rem;
+}
+
+.HeaderPersonal{
+	vertical-align: top;
+	margin-right: 0.2rem;
+	font-size:0.4rem !important;
+	
+}
+
+.HeaderDowlood{
+	width: 1.5rem;
+	height: 0.52rem;
+	border: 1px solid #71777d;
+	color: #71777D;
+	font-size: 0.24rem;
+	background: white;
+	text-align: center;
+	line-height: 0.52rem;
+	border-radius: 0.05rem;
+	float: right;
+}
+.quxiaoHeader{
+	font-size: 0.26rem;
+	color: #333;
+	display: block;
+	float: right;
+	margin-top: 0.1rem;
+}
+
+
+.Index-content{
+	width: 100%;
+	margin-top:1.03rem;
+}
+.content1{
+	width: 100%;
+}
+.ulList{
+	width: 6.7rem;
+	height: 1.04rem;
+	padding: 0 0.4rem;
+	font-size: 0.28rem;
+	line-height: 1.04rem;
+	color: #333;
+	display: flex;
+	position: fixed;
+	top: 1.03rem;
+	left: 0;
+	z-index: 100;
+	background: white;
+	
+}
+.ulList li{
+	width: 20%;
+	height: 1.04rem;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.ulList li a{
+	color: #333333;
+}
+.underLine{
+	position: absolute;
+	bottom: 0;
+	width: 0.56rem;
+	height: 0.05rem;
+	left: 50%;
+	margin-left: -0.28rem;
+	background: red;
+}
+.containerSmall{
+	margin-top: 2.07rem;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+/*第二个内容*/
+.content2{
+	width: 100%;
+	background: white;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	display: none;
+}
+.content2 h2{
+	font-size: 0.28rem;
+	font-weight: normal;
+	padding-top: 0.25rem;
+	margin-bottom: 0.1rem;
+}
+.content2 ul li{
+	font-size: 0.24rem;
+	color: #333;
+	padding:0.15rem 0.25rem;
+	background: #F3F5F7;
+	float: left;
+	margin-right: 0.15rem;
+	border-radius: 0.02rem;
+	margin-bottom: 0.15rem;
+}
+.morem{
+	width: 3.6rem;
+	height: 0.74rem;
+	font-size: 0.28rem;
+	color: #5E5E5E;
+	line-height: 0.74rem;
+	text-align: center;
+	border: 1px solid #D9DDE1;
+	border-radius: 0.37rem;
+	margin: 0.3rem auto;
+}
